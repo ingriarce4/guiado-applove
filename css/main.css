@@ -116,7 +116,7 @@ h4{
 }
 /* --sección de WORK-----*/
 
-#work{
+#trabajo{
   background-color: white;
   text-align: center;
   padding: 70px 7px;
@@ -149,7 +149,7 @@ h4{
   width: 60px;
 }
 
-.hide{
+.hidee{
   display: none;
 }
 
@@ -159,7 +159,7 @@ h4{
 
 footer{
   text-align: center;
-  height: 70px;
+  height: 100px;
   background-color: #373b47;
   color: white;
   padding-top: 15px;

@@ -6,7 +6,7 @@
  */
  (function main(){
 	var boxes = Array.from(document.getElementsByClassName("imagenes"));
-	var work = document.getElementById("work");
+	var work = document.getElementById("trabajo");
 
 	var modal, bodyModal, close, img;
 	boxes.forEach(function(box){
@@ -26,7 +26,7 @@
 			modal.appendChild(close);
 			work.appendChild(modal);
 			close.addEventListener("click",function(){
-				modal.classList.add("hide");
+				modal.classList.add("hidee");
 				work.removeChild(modal);
 			});
 		});		
