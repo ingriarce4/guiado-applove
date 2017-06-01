@@ -4,7 +4,7 @@
  /*
  * Archivo principal de funcionalidad de JS
  */
- (function maincss(){
+ (function main(){
 	var boxes = Array.from(document.getElementsByClassName("imagenes"));
 	var work = document.getElementById("work");
 
@@ -17,11 +17,11 @@
 			bodyModal.classList.add("modal-body");
 			bodyModal.innerHTML = box.innerHTML;			
 			modal.appendChild(bodyModal);
-			
+
 			close = document.createElement("div");
 			close.classList.add("close");
 			img = document.createElement("img");
-			img.setAttribute("src", "http://tojaeurope.com/gallery/Close-icon.png");
+			img.setAttribute("src", "http://www.gifde.com/gif/otros/decoracion/botones/boton-X/boton-con-x-003.png");
 			close.appendChild(img);
 			modal.appendChild(close);
 			work.appendChild(modal);
